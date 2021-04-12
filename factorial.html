@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        userNum = prompt("Gimme a number");
+        var multiplied =1;
+
+        function factorial(n) {
+            /* for (var i = 1; i <= n; i++) {
+                //console.log("works");
+                multiplied = multiplied * i;
+            }*/
+            for (var i = n; i >= 1; i--) {
+                //console.log("works");
+                multiplied = multiplied * i;
+            }
+            return multiplied;
+       }
+        console.log(factorial(userNum));
+    </script>
+</body>
+</html>

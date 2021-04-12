@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        word = prompt("gimme a word");
+        var newWord;
+        function pluralize(word) {
+            if (word == "moose") {
+                return word;
+            }
+            else if (word == "automaton") {
+                return "automata";
+            }
+            else if (word == "mouse") {
+                return "mice";
+            }
+            else{
+                word += "s";
+                return word;
+            }
+        }
+        newWord = pluralize(word);
+        console.log(newWord);
+    </script>
+</body>
+</html>
